@@ -8,6 +8,12 @@ url: "" # базовое имя хоста и протокол сайта, на�
 plugins:
   - jekyll-feed
 
+# Коллекции
+collections:
+  recipe:
+    output: true
+    permalink: /:collection/:name-:i_day:i_month:short_year
+
 # Включение файлов и каталогов в сборку
 include:
   - _pages
