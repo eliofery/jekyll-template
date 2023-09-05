@@ -14,6 +14,29 @@ collections:
     output: true
     permalink: /:collection/:name-:i_day:i_month:short_year
 
+# Набор правил по умолчанию для создаваемых страниц через терминал
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      description:
+      category:
+      tags: []
+      published: false
+      sitemap: false
+      excerpt_separator: <!--more-->
+    posts:
+      description:
+      category:
+      tags: []
+      published: true
+      sitemap: true
+      excerpt_separator: <!--more-->
+    recipe:
+      layout: post
+      description:
+      excerpt_separator: <!--more-->
+
 # Включение файлов и каталогов в сборку
 include:
   - _pages

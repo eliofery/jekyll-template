@@ -9,6 +9,11 @@ group :jekyll_plugins do
   # RSS
   # https://github.com/jekyll/jekyll-feed
   gem "jekyll-feed", "~> 0.12"
+
+  # Добавляет команды для создания записи, страницы или черновика.
+  # https://github.com/jekyll/jekyll-compose
+  # gem install jekyll-compose
+  gem "jekyll-compose"
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).
