@@ -1,0 +1,11 @@
+{% for item in include.items %}
+{% assign url = page.url | replace: '/index.html', '' %}
+<li class="navigation__item {% if item.url == url %}navigation__item--active{% endif %}">
+  <a class="navigation__link" href="{{ site.baseurl}}{{ item.url }}">{{ item.title }}</a>
+  {% if item.links %}
+  <ul class="navigation__sub-list">
+    {% include navigation-item.html items=item.links %}
+  </ul>
+  {% endif %}
+</li>
+{% endfor %}

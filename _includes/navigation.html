@@ -1,0 +1,7 @@
+{% if site.data.main-nav.items %}
+<nav class="navigation">
+  <ul class="navigation__list">
+    {% include navigation-item.html items=site.data.main-nav.items %}
+  </ul>
+</nav>
+{% endif %}

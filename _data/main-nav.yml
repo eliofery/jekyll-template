@@ -1,0 +1,35 @@
+items:
+  - title: Главная
+    url: /
+
+  - title: Рецепты
+    url: /recipe
+
+    links:
+      - title: Первые блюда
+        url: '#'
+
+      - title: Вторые блюда
+        url: '#'
+        links:
+          - title: Европейская кухня
+            url: '#'
+          - title: Восточная кухня
+            url: '#'
+          - title: Азиатская кухня
+            url: '#'
+          - title: Русская кухня
+            url: '#'
+
+      - title: Десерт
+        url: '#'
+        links:
+          - title: Торты
+            url: '#'
+          - title: Пироги
+            url: '#'
+          - title: Коктейли
+            url: '#'
+
+  - title: Контакты
+    url: '#'
