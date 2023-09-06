@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% contentfor header %}
+<header>
+  Шапка сайта
+</header>
+{% endcontentfor %}
+
+{% contentfor content %}
+  {{ content }}
+{% endcontentfor %}
+
+{% contentfor script %}
+<script>
+  console.log('Test')
+</script>
+{% endcontentfor %}

@@ -14,6 +14,12 @@ group :jekyll_plugins do
   # https://github.com/jekyll/jekyll-compose
   # gem install jekyll-compose
   gem "jekyll-compose"
+
+  # Предоставляет механизм для передачи содержимого со страниц в их родительские макеты.
+  # https://github.com/rustygeldmacher/jekyll-contentblocks
+  # gem install jekyll-contentblocks
+  #gem 'jekyll-contentblocks', path: './_plugins/jekyll-contentblocks-1.2.0'
+  gem 'jekyll-contentblocks'
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).

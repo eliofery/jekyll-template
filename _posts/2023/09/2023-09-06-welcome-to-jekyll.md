@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 title:  "Добро пожаловать в Jekyll!"
 date:   2023-09-03 12:02:32 +0600
 description: Тестовая вступительная запись

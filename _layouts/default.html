@@ -1,0 +1,24 @@
+<html class="no-js" lang="{{ page.lang | default: site.lang | default: 'ru' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }}</title>
+
+  <base href="{{ site.baseurl }}">
+</head>
+<body>
+<div class="layout">
+  {% contentblock header %}
+
+  <main class="layout__main">
+    {% contentblock content %}
+  </main>
+
+  {% contentblock footer %}
+</div>
+
+{% contentblock script %}
+</body>
+</html>
