@@ -15,6 +15,10 @@ group :jekyll_plugins do
   # gem install jekyll-compose
   gem "jekyll-compose"
 
+  # Sass/Scss конвертер
+  # https://github.com/jekyll/jekyll-sass-converter
+  gem 'jekyll-sass-converter'
+
   # Предоставляет механизм для передачи содержимого со страниц в их родительские макеты.
   # https://github.com/rustygeldmacher/jekyll-contentblocks
   # gem install jekyll-contentblocks

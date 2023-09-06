@@ -13,7 +13,5 @@ layout: default
 {% endcontentfor %}
 
 {% contentfor script %}
-<script>
-  console.log('Test')
-</script>
+<script src="{{ '/assets/js/main.js?v=' | relative_url }}{{ site.version | default: '1.0' }}" type="module"></script>
 {% endcontentfor %}
