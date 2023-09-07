@@ -8,9 +8,13 @@
 
   <base href="{{ site.baseurl }}">
 
-  <!-- Критические стили -->
-  {% capture critical %}{% include critical.css %}{% endcapture %}
+  <!-- Критические стили   -->
+  {% assign path = '_site/assets/css/critical.css' %}
+  {% capture fileExists %}{% file_exists {{ path }} %}{% endcapture %}
+  {% if fileExists == 'true' %}
+  {% capture critical %}{% root_include {{ path }} %}{% endcapture %}
   <style>{{ critical | scssify }}</style>
+  {% endif %}
 
   <!-- Стили -->
   <link rel="preload" as="style" href="{{ '/assets/css/style.css?v=' | relative_url }}{{ site.version | default: '0.0.1' }}" onload="this.rel='stylesheet'">

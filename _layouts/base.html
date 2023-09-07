@@ -12,6 +12,12 @@ layout: default
   {{ content }}
 {% endcontentfor %}
 
+{% contentfor footer %}
+<footer>
+  FOOTER
+</footer>
+{% endcontentfor %}
+
 {% contentfor script %}
-<script src="{{ '/assets/js/main.js?v=' | relative_url }}{{ site.version | default: '1.0' }}" type="module"></script>
+<script src="{{ '/assets/js/main.js?v=' | relative_url }}{{ site.version | default: '0.0.1' }}" type="module"></script>
 {% endcontentfor %}
