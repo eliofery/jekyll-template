@@ -81,6 +81,8 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-sass-converter
   jekyll-sitemap
+  kramdown
+  rouge
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)

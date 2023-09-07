@@ -19,6 +19,14 @@ group :jekyll_plugins do
   # gem install jekyll-compose
   gem "jekyll-compose"
 
+  # Hightlight
+  # https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/
+  # https://bnhr.xyz/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+  # rougify help style
+  # rougify style monokai > _sass/scaffolds/components/_syntax.scss
+  gem "kramdown"
+  gem "rouge"
+
   # Sass/Scss конвертер
   # https://github.com/jekyll/jekyll-sass-converter
   gem 'jekyll-sass-converter'
