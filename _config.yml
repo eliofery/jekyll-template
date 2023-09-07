@@ -1,4 +1,4 @@
-version: 0.0.9
+version: 0.0.10
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
@@ -68,6 +68,38 @@ pagination:
   trail:
     before: 2
     after: 2
+
+# Обрезка и изменение размера изображений
+mini_magick:
+  thumbnail:
+    source: images/original
+    destination: images/thumbnail
+    resize: "530x390^"
+    gravity: "center" # NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
+    extent: "530x390"
+  recipe:
+    source: images/original
+    destination: images/recipe
+    resize: "550x450^"
+    gravity: "center"
+    extent: "550x450"
+  full:
+    source: images/original
+    destination: images/full
+    resize: "1920x500^"
+    gravity: "center"
+    extent: "1920x500"
+
+# Оптимизация изображений
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ['/assets/images/', '/images/']
+  nested: true
+  formats: ['.jpeg', '.jpg', '.png']
+  regenerate: false
+  exclude: ['icons']
+  append_ext: true
 
 # Включение файлов и каталогов в сборку
 include:

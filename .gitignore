@@ -6,5 +6,6 @@ _site
 .jekyll-metadata
 vendor
 node_modules
-_includes/critical.css
-_includes/critical.css.map
+images/full
+images/recipe
+images/thumbnail

@@ -49,6 +49,19 @@ group :jekyll_plugins do
   # https://github.com/sverrirs/jekyll-paginate-v2
   # gem install jekyll-paginate-v2
   gem "jekyll-paginate-v2"
+
+  # Обрезка и изменение размера изображений
+  # https://github.com/zroger/jekyll-minimagick
+  # https://github.com/MattKevan/Jekyll-MiniMagick-new
+  # https://www.kevan.tv/2016/10/17/automatic-image-resizing-with-jekyll-and-imagemagick/
+  # gem "jekyll-minimagick"
+  # gem "jekyll-minimagick", github: "benubois/jekyll-minimagick", branch: "patch-1"
+  gem "mini_magick"
+
+  # Автоматически генерирует webp изображения
+  # https://github.com/sverrirs/jekyll-webp
+  # gem install jekyll-webp
+  gem "jekyll-webp"
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).
