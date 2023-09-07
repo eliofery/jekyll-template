@@ -10,6 +10,10 @@ group :jekyll_plugins do
   # https://github.com/jekyll/jekyll-feed
   gem "jekyll-feed", "~> 0.12"
 
+  # Добавляет sitemap
+  # https://github.com/jekyll/jekyll-sitemap
+  gem "jekyll-sitemap"
+
   # Добавляет команды для создания записи, страницы или черновика.
   # https://github.com/jekyll/jekyll-compose
   # gem install jekyll-compose
