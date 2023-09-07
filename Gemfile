@@ -13,10 +13,12 @@ group :jekyll_plugins do
 
   # RSS
   # https://github.com/jekyll/jekyll-feed
+  # gem install jekyll-feed
   gem "jekyll-feed", "~> 0.12"
 
   # Добавляет sitemap
   # https://github.com/jekyll/jekyll-sitemap
+  # gem install jekyll-sitemap
   gem "jekyll-sitemap"
 
   # Добавляет команды для создания записи, страницы или черновика.
@@ -34,13 +36,19 @@ group :jekyll_plugins do
 
   # Sass/Scss конвертер
   # https://github.com/jekyll/jekyll-sass-converter
+  # gem install jekyll-sass-converter
   gem 'jekyll-sass-converter'
 
   # Предоставляет механизм для передачи содержимого со страниц в их родительские макеты.
   # https://github.com/rustygeldmacher/jekyll-contentblocks
   # gem install jekyll-contentblocks
-  #gem 'jekyll-contentblocks', path: './_plugins/jekyll-contentblocks-1.2.0'
+  # gem 'jekyll-contentblocks', path: './_plugins/jekyll-contentblocks-1.2.0'
   gem 'jekyll-contentblocks'
+
+  # Пагинация
+  # https://github.com/sverrirs/jekyll-paginate-v2
+  # gem install jekyll-paginate-v2
+  gem "jekyll-paginate-v2"
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).

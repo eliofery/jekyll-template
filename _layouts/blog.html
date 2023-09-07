@@ -1,0 +1,65 @@
+---
+layout: base
+---
+
+<section class="blog">
+  <div class="container">
+    <h2 class="blog__title"><span>{{ page.title }}</span></h2>
+    <div class="blog__content">
+      {% if paginator.posts[0] %}
+      <ul class="blog__list">
+        {% for post in paginator.posts %}
+        <li class="blog__item">
+          <a class="blog__link" href="{{ post.url }}">
+            <time class="blog__date" datetime="{{ post.date | date: " %Y-%m-%dT%H:%M
+            " }}">{{ post.date | date: '%d.%m.%Y' }}</time>
+            <h3 class="blog__title">{{ post.title | markdownify | strip_html | truncatewords: 15 }}</h3>
+            <div class="blog__desc">{{ post.description | default: post.excerpt | markdownify | strip_html |
+              truncatewords: 40 }}
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      {% if paginator.page_trail %}
+      <ol class="blog__pagination">
+        {% if paginator.previous_page %}
+        <li class="blog__pagination-item blog__pagination-item--prev">
+          <a class="blog__pagination-link" href="{{ paginator.previous_page_path }}" aria-label="Предыдущее">
+            &lt;--
+          </a>
+        </li>
+        {% endif %}
+
+        {% for trail in paginator.page_trail %}
+        {% if page.url == trail.path %}
+        {% assign active = 'page-pagination__item--active' %}
+        {% else %}
+        {% assign active = '' %}
+        {% endif %}
+        <li class="blog__pagination-item {{ active }}">
+          <a class="blog__pagination-link" href="{{ trail.path | remove: 'index.html' }}">{{ trail.num }}</a>
+        </li>
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <li class="blog__pagination-item blog__pagination-item--next">
+          <a class="blog__pagination-link" href="{{ paginator.next_page_path }}" aria-label="Следующее">
+            --&gt;
+          </a>
+        </li>
+        {% endif %}
+      </ol>
+      {% endif %}
+      {% else %}
+      <p>Записей нет</p>
+      {% endif %}
+
+      <div class="blog__seo">
+        {{ content }}
+      </div>
+
+    </div>
+  </div>
+</section>
