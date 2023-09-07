@@ -6,6 +6,11 @@ gem "jekyll", "~> 4.3.2"
 
 # Используемые в проекте расширения
 group :jekyll_plugins do
+  # SEO
+  # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+  # gem install jekyll-seo-tag
+  gem "jekyll-seo-tag"
+
   # RSS
   # https://github.com/jekyll/jekyll-feed
   gem "jekyll-feed", "~> 0.12"

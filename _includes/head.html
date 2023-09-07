@@ -1,0 +1,47 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title }}</title>
+
+<base href="{{ site.baseurl }}">
+
+<!-- Критические стили   -->
+{% assign path = '_site/assets/css/critical.css' %}
+{% capture fileExists %}{% file_exists {{ path }} %}{% endcapture %}
+{% if fileExists == 'true' %}
+{% capture critical %}{% root_include {{ path }} %}{% endcapture %}
+<style>{{ critical | scssify }}</style>
+{% endif %}
+
+<!-- Стили -->
+<link rel="preload" as="style" href="{{ '/assets/css/style.css?v=' | relative_url }}{{ site.version | default: '0.0.1' }}" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | relative_url }}{{ site.version | default: '0.0.1' }}"></noscript>
+
+{% seo title=false %}
+{% feed_meta %}
+
+{% if jekyll.environment == 'production' and site.google_analytics and site.google_analytics != 'UA-XXXXXXXXX-X' %}
+<!-- Google Analytics -->
+<script>
+  if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  }
+</script>
+{% endif %}
+
+{% if jekyll.environment == 'production' and site.yandex_metrika and site.yandex_metrika != 'XXXXXX' %}
+<!-- Yandex Metrika -->
+<script>
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  ym('{{ site.yandex_metrika }}', "init", {});
+</script>
+{% endif %}
