@@ -1,10 +1,10 @@
-version: 0.0.15
+version: 0.0.16
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
 url: "" # базовое имя хоста и протокол сайта, например. http://example.com
 baseurl: "" # подпуть сайта, например. /blog
-themecolor: '#ccc'
+themecolor: '#ee1b24'
 permalink: /blog/:name-:categories.html # https://jekyllrb.com/docs/permalinks/#built-in-formats
 
 # export JEKYLL_ENV=production|development
