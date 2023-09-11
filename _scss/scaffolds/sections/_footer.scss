@@ -1,0 +1,33 @@
+.footer {
+  padding: 60px 0 0;
+
+  font-weight: normal;
+  font-size: map-get($font-sizes, "xxs");
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+
+  border-top: 1px solid #ccc;
+}
+
+.footer__copyright {
+  color: #9f9f9f;
+}
+
+.footer__author {
+  color: rgb(var(--color-text));
+  font-weight: 500;
+  text-decoration: none;
+
+  span {
+    color: $accent;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+  position: relative;
+
+  color: #9f9f9f;
+  font-size: 14px;
+}
+
+.logo__icon {
+  width: 170px;
+  height: 67px;
+}
+
+.logo__version {
+  position: absolute;
+  right: 40px;
+  bottom: -10px;
+
+  font-weight: 500;
+}

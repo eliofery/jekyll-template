@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="icon-example-arrow" viewBox="0 0 31 16">
+    <path d="M.293 7.293a1 1 0 000 1.414l6.364 6.364a1 1 0 001.414-1.414L2.414 8l5.657-5.657A1 1 0 006.657.93L.293 7.293zM31 7H1v2h30V7z"/>
+  </symbol>
+  <view id="icon-example-arrow-view" viewBox="0 0 31 16"/>
+  <use xlink:href="#icon-example-arrow" x="0" y="0" width="31" height="16"/>
+</svg>
