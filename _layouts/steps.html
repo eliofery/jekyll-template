@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+{% contentfor content %}
+{{ content }}
+
+<h2>Продолжить чтение</h2>
+
+<ol>
+  {% assign collection = site.steps %}
+
+  {% for article in collection limit: 20 offset: 0 %}
+  {% unless page.url == article.url %}
+  <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+  {% endunless %}
+  {% endfor %}
+</ol>
+{% endcontentfor %}
