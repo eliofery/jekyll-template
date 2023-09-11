@@ -13,5 +13,5 @@ items:
   - title: Пользовательские данные (каталог _data)
     url: /steps/data.html
 
-  - title: Ссылка 5
-    url: /link-5
+  - title: Типы записей
+    url: /steps/type.html
