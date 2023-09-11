@@ -1,13 +1,18 @@
 <html class="no-js" lang="{{ page.lang | default: site.lang | default: 'ru' }}">
 <head>
-  {% include head.html %}
+  {% include base/head.html %}
 </head>
 <body>
+
+{% include base/body-top.html %}
+
 <div class="layout">
   {% contentblock header %}
 
   <main class="layout__main">
-    {% contentblock content %}
+    <div class="container">
+      {% contentblock content %}
+    </div>
   </main>
 
   {% contentblock footer %}

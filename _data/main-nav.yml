@@ -1,35 +1,17 @@
 items:
-  - title: Главная
-    url: /
-
-  - title: Рецепты
-    url: /recipe
-
+  - title: Базовая установка
+    url: /steps
     links:
-      - title: Первые блюда
-        url: '#'
+    - title: Установка Jekyll
+      url: /steps
+    - title: Инициализация шаблона
+      url: /steps/init.html
 
-      - title: Вторые блюда
-        url: '#'
-        links:
-          - title: Европейская кухня
-            url: '#'
-          - title: Восточная кухня
-            url: '#'
-          - title: Азиатская кухня
-            url: '#'
-          - title: Русская кухня
-            url: '#'
+  - title: Ссылка 3
+    url: /link-3
 
-      - title: Десерт
-        url: '#'
-        links:
-          - title: Торты
-            url: '#'
-          - title: Пироги
-            url: '#'
-          - title: Коктейли
-            url: '#'
+  - title: Ссылка 4
+    url: /link-4
 
-  - title: Контакты
-    url: '#'
+  - title: Ссылка 5
+    url: /link-5

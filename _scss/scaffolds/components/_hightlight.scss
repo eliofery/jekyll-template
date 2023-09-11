@@ -209,6 +209,11 @@
   color: #f92672;
 }
 .highlight {
+  margin: 0;
   color: #f8f8f2;
   background-color: #49483e;
+}
+.highlight code {
+  display: inline-block;
+  padding: 15px;
 }
