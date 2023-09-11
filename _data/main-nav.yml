@@ -15,3 +15,6 @@ items:
 
   - title: Типы записей
     url: /steps/type.html
+    links:
+    - title: Страница
+      url: /steps/type-page.html
