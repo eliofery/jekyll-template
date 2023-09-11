@@ -7,11 +7,11 @@ items:
     - title: Установка шаблона
       url: /steps/init.html
 
-  - title: Ссылка 3
-    url: /link-3
+  - title: Архитектура шаблона
+    url: /steps/architecture.html
 
-  - title: Ссылка 4
-    url: /link-4
+  - title: Пользовательские данные (каталог _data)
+    url: /steps/data.html
 
   - title: Ссылка 5
     url: /link-5
