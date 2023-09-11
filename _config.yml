@@ -1,4 +1,4 @@
-version: 0.0.14
+version: 0.0.15
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-inline-svg
 
 # Поддержка scss стилей
 sass:
@@ -92,6 +93,8 @@ mini_magick:
     extent: "550x450"
 
 # Оптимизация изображений
+svg:
+  optimize: true
 webp:
   enabled: true
   quality: 75

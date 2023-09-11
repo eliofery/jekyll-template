@@ -62,6 +62,11 @@ group :jekyll_plugins do
   # https://github.com/sverrirs/jekyll-webp
   # gem install jekyll-webp
   gem "jekyll-webp"
+
+  # SVG
+  # https://github.com/sdumetz/jekyll-inline-svg
+  # gem install jekyll-inline-svg
+  gem "jekyll-inline-svg"
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).
