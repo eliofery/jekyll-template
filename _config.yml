@@ -1,4 +1,4 @@
-version: 0.0.13
+version: 0.0.14
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
@@ -31,15 +31,19 @@ kramdown:
 
 # Коллекции
 collections:
-  recipe:
+  steps:
     output: true
-    permalink: /:collection/:name-:i_day:i_month:short_year
+    permalink: /:collection/:name.html
+    order:
+      - install.md
+      - init.md
 
 # Набор правил по умолчанию для создаваемых страниц через терминал
 jekyll_compose:
   auto_open: true
   default_front_matter:
     drafts:
+      layout: base
       description:
       category:
       tags: []
@@ -47,14 +51,15 @@ jekyll_compose:
       sitemap: false
       excerpt_separator: <!--more-->
     posts:
+      layout: base
       description:
       category:
       tags: []
       published: true
       sitemap: true
       excerpt_separator: <!--more-->
-    recipe:
-      layout: post
+    steps:
+      layout: base
       description:
       excerpt_separator: <!--more-->
 
@@ -79,18 +84,12 @@ mini_magick:
     resize: "530x390^"
     gravity: "center" # NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
     extent: "530x390"
-  recipe:
+  steps:
     source: images/original
-    destination: images/recipe
+    destination: images/steps
     resize: "550x450^"
     gravity: "center"
     extent: "550x450"
-  full:
-    source: images/original
-    destination: images/full
-    resize: "1920x500^"
-    gravity: "center"
-    extent: "1920x500"
 
 # Оптимизация изображений
 webp:
