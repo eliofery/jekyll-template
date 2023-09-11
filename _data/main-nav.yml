@@ -10,11 +10,13 @@ items:
   - title: Архитектура шаблона
     url: /steps/architecture.html
 
-  - title: Пользовательские данные (каталог _data)
+  - title: Пользовательские данные (_data)
     url: /steps/data.html
 
   - title: Типы записей
     url: /steps/type.html
     links:
-    - title: Страница
+    - title: Страница (_pages)
       url: /steps/type-page.html
+    - title: Статья (_posts)
+      url: /steps/type-post.html
