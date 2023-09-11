@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout__main {
+  flex-grow: 1;
+}
+
+.layout__content a {
+  color: $accent;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.layout__content + .layout__more-links {
+  margin-top: 60px;
+}
+
+.layout__more-links a {
+  color: rgb(var(--color-text));
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

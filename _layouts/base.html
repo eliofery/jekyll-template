@@ -4,7 +4,13 @@ layout: default
 
 {% contentfor header %}{% include section/header.html %}{% endcontentfor %}
 
-{% contentfor content %}{{ content }}{% endcontentfor %}
+{% contentfor content %}
+<div class="layout__content">
+  {{ content }}
+</div>
+
+{% contentblock more-links %}
+{% endcontentfor %}
 
 {% contentfor footer %}{% include section/footer.html %}{% endcontentfor %}
 

@@ -1,7 +1,7 @@
 ---
 layout: steps
-title: Инициализация шаблона
-date: 2023-08-31 13:39 +0600
+title: Установка шаблона
+date: 2023-09-01 13:39 +0600
 description: Инструкция по инициализации шаблона Jekyll.
 published: true
 sitemap: false

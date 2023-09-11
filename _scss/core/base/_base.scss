@@ -108,17 +108,3 @@ kbd {
 .overlay {
   @include overlay(var(--color-overlay));
 }
-
-.layout {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.layout__main {
-  flex-grow: 1;
-}
-
-.layout__main a {
-  color: $accent;
-}

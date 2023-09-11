@@ -4,7 +4,7 @@
   <a class="navigation__link" href="{{ site.baseurl}}{{ item.url }}">{{ item.title }}</a>
   {% if item.links %}
   <ul class="navigation__sub-list">
-    {% include navigation/navigation-item.html items=item.links %}
+    {% include component/navigation/navigation-item.html items=item.links %}
   </ul>
   {% endif %}
 </li>

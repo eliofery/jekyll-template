@@ -2,18 +2,20 @@
 layout: base
 ---
 
-{% contentfor content %}
 {{ content }}
 
-<h2>Продолжить чтение</h2>
+{% contentfor more-links %}
+<div class="layout__more-links">
+  <h2>Другие статьи</h2>
 
-<ol>
-  {% assign collection = site.steps %}
+  <ol>
+    {% assign collection = site.steps %}
 
-  {% for article in collection limit: 20 offset: 0 %}
-  {% unless page.url == article.url %}
-  <li><a href="{{ article.url }}">{{ article.title }}</a></li>
-  {% endunless %}
-  {% endfor %}
-</ol>
+    {% for article in collection limit: 20 offset: 0 %}
+    {% unless page.url == article.url %}
+    <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+    {% endunless %}
+    {% endfor %}
+  </ol>
+</div>
 {% endcontentfor %}

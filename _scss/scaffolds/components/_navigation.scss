@@ -1,0 +1,28 @@
+.navigation__list {
+  @include list-reset;
+
+  padding-left: 25px;
+
+  list-style: auto;
+}
+
+.navigation__item {
+  margin: 5px 0;
+}
+
+.navigation__sub-list {
+  margin-bottom: 12px;
+  padding-left: 20px;
+
+  list-style: none;
+}
+
+.navigation__link {
+  color: rgb(var(--color-text));
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
