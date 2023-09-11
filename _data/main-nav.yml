@@ -20,3 +20,5 @@ items:
       url: /steps/type-page.html
     - title: Статья (_posts)
       url: /steps/type-post.html
+    - title: Коллекция (_&lt;name-collection&gt;)
+      url: /steps/type-collection.html
