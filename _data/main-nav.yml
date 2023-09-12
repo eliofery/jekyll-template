@@ -34,3 +34,6 @@ items:
 
   - title: Изображения (images)
     url: /steps/image.html
+
+  - title: Иконки (assets/icons)
+    url: /steps/svg.html
