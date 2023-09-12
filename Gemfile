@@ -67,6 +67,31 @@ group :jekyll_plugins do
   # https://github.com/sdumetz/jekyll-inline-svg
   # gem install jekyll-inline-svg
   gem "jekyll-inline-svg"
+
+  ### Список не активных дополнительных расширений
+  # Responsive image
+  # Меняет размер изображения
+  # https://github.com/wildlyinaccurate/jekyll-responsive-image
+  # sudo apt-get install imagemagick libmagickcore-dev libmagickwand-dev
+  # gem install jekyll-responsive-image
+  # gem "jekyll-responsive-image"
+
+  # Архивы
+  # https://github.com/jekyll/jekyll-archives
+  # gem "jekyll-archives"
+
+  # Меняет размер изображения
+  # https://github.com/generalui/jekyll-image-size
+  # gem "jekyll-image-size"
+
+  # Минификация js
+  # https://github.com/digitalsparky/jekyll-minifier
+  # gem "jekyll-minifier"
+
+  # Jekyll Resize
+  # https://github.com/MichaelCurrin/jekyll-resize
+  # https://github.com/MichaelCurrin/jekyll-resize/blob/master/docs/usage.md
+  #  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 end
 
 # Добавление расширений, которые предоставляют информацию и возможность работы с часовыми поясами (timezone).
