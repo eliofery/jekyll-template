@@ -2,7 +2,7 @@
 layout: steps
 title: Категория
 date: 2023-09-06 10:00 +0600
-description: Сниппет страницы категории.
+description: Сниппет страницы категории в Jekyll.
 published: true
 sitemap: true
 ---

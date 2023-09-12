@@ -2,7 +2,7 @@
 layout: steps
 title: Тип записи "Статья"
 date: 2023-09-03 11:00 +0600
-description: Создание типа записи "Статья".
+description: Создание типа записи "Статья" в Jekyll.
 published: true
 sitemap: true
 ---

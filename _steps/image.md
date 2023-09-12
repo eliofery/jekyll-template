@@ -2,7 +2,7 @@
 layout: steps
 title: Изображения
 date: 2023-09-05 11:00 +0600
-description: Загрузка и подключение изображений в шаблоне.
+description: Загрузка и подключение изображений в шаблоне Jekyll.
 published: true
 sitemap: true
 ---

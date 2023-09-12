@@ -2,7 +2,7 @@
 layout: steps
 title: Архитектура шаблона
 date: 2023-09-01 11:00 +0600
-description: Описание назначения каталогов и файлов шаблона.
+description: Описание назначения каталогов и файлов шаблона Jekyll.
 published: true
 sitemap: true
 ---

@@ -2,7 +2,7 @@
 layout: steps
 title: Тип записи "Страница"
 date: 2023-09-03 10:00 +0600
-description: Создание типа записи "Страница".
+description: Создание типа записи "Страница" в Jekyll.
 published: true
 sitemap: true
 ---

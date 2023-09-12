@@ -2,7 +2,7 @@
 layout: steps
 title: Включаемые области
 date: 2023-09-04 11:00 +0600
-description: Создание включаемых областей для страниц сайта.
+description: Создание включаемых областей для страниц сайта на Jekyll.
 published: true
 sitemap: true
 ---

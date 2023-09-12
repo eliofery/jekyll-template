@@ -2,7 +2,7 @@
 layout: steps
 title: Тип записи "Коллекция"
 date: 2023-09-03 12:00 +0600
-description: Создание типа записи "Коллекция".
+description: Создание типа записи "Коллекция" в Jekyll.
 published: true
 sitemap: true
 ---

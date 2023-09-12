@@ -2,7 +2,7 @@
 layout: steps
 title: Иконки
 date: 2023-09-05 12:00 +0600
-description: Загрузка и подключение иконок в шаблоне.
+description: Загрузка и подключение иконок в шаблоне Jekyll.
 published: true
 sitemap: true
 ---
