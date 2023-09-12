@@ -22,3 +22,6 @@ items:
       url: /steps/type-post.html
     - title: Коллекция (_&lt;name-collection&gt;)
       url: /steps/type-collection.html
+
+  - title: Макет (_layout)
+    url: /steps/layout.html
