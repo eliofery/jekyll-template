@@ -22,3 +22,6 @@ items:
 
   - title: Svg иконка
     url: /steps/icon.html
+
+  - title: Время чтения материала
+    url: /steps/read-minute.html
