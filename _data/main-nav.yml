@@ -28,3 +28,6 @@ items:
 
   - title: Включаемые области (_includes)
     url: /steps/include.html
+
+  - title: Пользовательские расширения (_plugins)
+    url: /steps/plugin.html
