@@ -15,9 +15,19 @@ sitemap: true
 <p>Шаблон был создан в рамках <a href="#" target="_blank" rel="nofollow">этой статьи</a>, который в последствии дополнился и улучшился. Здесь вы сможете более детально ознакомиться с его функционалом и применить его в своем проекте.</p>
 
 {% contentfor more-links %}
-<div class="layout__more-links">
-  <h2 id="links">Оглавление</h2>
+<div class="layout__more-links" id="links">
+  <div>
+    <h2>Оглавление</h2>
 
-  {% include component/navigation/navigation.html %}
+    {% include component/navigation/navigation.html %}
+  </div>
+
+  <div>
+    <h2>Сниппеты</h2>
+
+    <ol>
+      {% include component/navigation/navigation-item.html items=site.data.snipets.items %}
+    </ol>
+  </div>
 </div>
 {% endcontentfor %}

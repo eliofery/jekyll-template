@@ -17,8 +17,18 @@
   }
 }
 
+.layout__more-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 50px;
+}
+
 .layout__content + .layout__more-links {
   margin-top: 60px;
+}
+
+.layout__more-links ol {
+  padding-left: 20px;
 }
 
 .layout__more-links a {
