@@ -19,3 +19,6 @@ items:
 
   - title: Предыдущая, следующая запись
     url: /steps/prev-next.html
+
+  - title: Svg иконка
+    url: /steps/icon.html
