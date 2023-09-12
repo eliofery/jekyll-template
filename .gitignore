@@ -7,5 +7,5 @@ _site
 vendor
 node_modules
 images/full
-images/recipe
 images/thumbnail
+images/steps

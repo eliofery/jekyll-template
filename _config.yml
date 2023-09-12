@@ -1,4 +1,4 @@
-version: 0.0.19
+version: 0.0.20
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
@@ -87,12 +87,12 @@ mini_magick:
     resize: "530x390^"
     gravity: "center" # NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
     extent: "530x390"
-  steps:
-    source: images/original
-    destination: images/steps
-    resize: "550x450^"
-    gravity: "center"
-    extent: "550x450"
+#  steps:
+#    source: images/original
+#    destination: images/steps
+#    resize: "550x450^"
+#    gravity: "center"
+#    extent: "550x450"
 
 # Оптимизация изображений
 svg:
