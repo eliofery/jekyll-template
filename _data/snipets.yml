@@ -1,3 +1,9 @@
 items:
-  - title: Снипет 1
-    url: #
+  - title: Категория
+    url: /steps/category.html
+
+  - title: Подсветка кода
+    url: /steps/hightlight.html
+
+  - title: Вывод записей
+    url: /steps/article.html
