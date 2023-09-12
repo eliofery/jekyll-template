@@ -23,5 +23,8 @@ items:
     - title: Коллекция (_&lt;name-collection&gt;)
       url: /steps/type-collection.html
 
-  - title: Макет (_layout)
+  - title: Макет (_layouts)
     url: /steps/layout.html
+
+  - title: Включаемые области (_includes)
+    url: /steps/include.html
