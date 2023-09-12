@@ -5,5 +5,11 @@ items:
   - title: Подсветка кода
     url: /steps/hightlight.html
 
-  - title: Вывод записей
+  - title: Список записей
     url: /steps/article.html
+
+  - title: Список категорий и тегов
+    url: /steps/cat.html
+
+  - title: Анонс и полное содержимое
+    url: /steps/excerpt.html
