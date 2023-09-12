@@ -31,3 +31,6 @@ items:
 
   - title: Пользовательские расширения (_plugins)
     url: /steps/plugin.html
+
+  - title: Изображения (images)
+    url: /steps/image.html
