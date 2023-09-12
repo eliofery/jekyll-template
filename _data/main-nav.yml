@@ -37,3 +37,6 @@ items:
 
   - title: Иконки (assets/icons)
     url: /steps/svg.html
+
+  - title: Ресурсы (assets, _scss)
+    url: /steps/asset.html
