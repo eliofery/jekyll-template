@@ -4,7 +4,7 @@ title: Типы записей
 date: 2023-09-04 13:39 +0600
 description: Создание различных типов записей в Jekyll.
 published: true
-sitemap: false
+sitemap: true
 ---
 
 # {{ page.title }}

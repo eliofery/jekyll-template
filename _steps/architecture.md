@@ -4,7 +4,7 @@ title: Архитектура шаблона
 date: 2023-09-02 13:39 +0600
 description: Описание назначения каталогов и файлов шаблона.
 published: true
-sitemap: false
+sitemap: true
 ---
 
 # {{ page.title }}

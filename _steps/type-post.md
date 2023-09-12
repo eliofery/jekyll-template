@@ -4,7 +4,7 @@ title: Тип записи "Статья"
 date: 2023-09-06 13:39 +0600
 description: Создание типа записи "Статья".
 published: true
-sitemap: false
+sitemap: true
 ---
 
 # {{ page.title }}
