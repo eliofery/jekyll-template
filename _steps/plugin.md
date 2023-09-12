@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Пользовательские расширения
-date: 2023-09-10 13:39 +0600
+date: 2023-09-05 10:00 +0600
 description: Подключение пользовательских расширений для Jekyll.
 published: true
 sitemap: true

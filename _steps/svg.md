@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Иконки
-date: 2023-09-12 10:39 +0600
+date: 2023-09-05 12:00 +0600
 description: Загрузка и подключение иконок в шаблоне.
 published: true
 sitemap: true

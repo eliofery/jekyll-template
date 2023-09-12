@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Макет для страниц сайта
-date: 2023-09-08 13:39 +0600
+date: 2023-09-04 10:00 +0600
 description: Создание макетов для страниц сайта.
 published: true
 sitemap: true

@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Тип записи "Страница"
-date: 2023-09-05 13:39 +0600
+date: 2023-09-03 10:00 +0600
 description: Создание типа записи "Страница".
 published: true
 sitemap: true

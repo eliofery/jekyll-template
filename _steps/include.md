@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Включаемые области
-date: 2023-09-09 13:39 +0600
+date: 2023-09-04 11:00 +0600
 description: Создание включаемых областей для страниц сайта.
 published: true
 sitemap: true

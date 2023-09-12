@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Тип записи "Коллекция"
-date: 2023-09-07 13:39 +0600
+date: 2023-09-03 12:00 +0600
 description: Создание типа записи "Коллекция".
 published: true
 sitemap: true

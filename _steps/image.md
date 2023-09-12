@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Изображения
-date: 2023-09-11 13:39 +0600
+date: 2023-09-05 11:00 +0600
 description: Загрузка и подключение изображений в шаблоне.
 published: true
 sitemap: true

@@ -1,7 +1,7 @@
 ---
 layout: steps
 title: Архитектура шаблона
-date: 2023-09-02 13:39 +0600
+date: 2023-09-01 11:00 +0600
 description: Описание назначения каталогов и файлов шаблона.
 published: true
 sitemap: true
