@@ -16,3 +16,6 @@ items:
 
   - title: Навигация
     url: /steps/navigation.html
+
+  - title: Предыдущая, следующая запись
+    url: /steps/prev-next.html
