@@ -3,6 +3,7 @@ layout: steps
 title: Тип записи "Страница"
 date: 2023-09-03 10:00 +0600
 description: Создание типа записи "Страница" в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---
@@ -42,6 +43,9 @@ title: Шаблон Jekyll
 # описание страницы
 description: Шаблон для создания статических страниц на Jekyll
 
+# изображение страницы используется для seo
+image: /images/cover.jpg
+
 # ссылка на страницу
 permalink: /
 
@@ -57,6 +61,7 @@ sitemap: true
 layout: base
 title: Шаблон Jekyll
 description: Шаблон для создания статических страниц на Jekyll
+image: /images/cover.jpg
 permalink: /
 sitemap: true
 ---

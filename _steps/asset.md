@@ -3,6 +3,7 @@ layout: steps
 title: Ресурсы шаблона
 date: 2023-09-05 12:00 +0600
 description: Разберем Scss стили и другие ресурсы в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

@@ -3,6 +3,7 @@ layout: steps
 title: Иконки
 date: 2023-09-05 12:00 +0600
 description: Загрузка и подключение иконок в шаблоне Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

@@ -3,6 +3,7 @@ layout: steps
 title: Список категорий и тегов
 date: 2023-09-06 13:00 +0600
 description: Сниппет вывода списка категорий и тегов в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

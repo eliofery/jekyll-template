@@ -3,6 +3,7 @@ layout: steps
 title: Установка шаблона
 date: 2023-09-01 10:00 +0600
 description: Инструкция по инициализации шаблона Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

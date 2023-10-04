@@ -3,6 +3,7 @@ layout: steps
 title: Типы записей
 date: 2023-09-02 11:00 +0600
 description: Создание различных типов записей в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---
@@ -36,6 +37,7 @@ jekyll_compose:
     drafts:
       layout: base
       description:
+      image: cover.jpg
       category:
       tags: []
       published: false
@@ -45,6 +47,7 @@ jekyll_compose:
     posts:
       layout: base
       description:
+      image: cover.jpg
       category:
       tags: []
       published: true
@@ -54,12 +57,14 @@ jekyll_compose:
     pages:
       layout: base
       description:
+      image: cover.jpg
       permalink:
       sitemap: true
     # коллекция с инструкцией по использованию шаблона
     steps:
       layout: base
       description:
+      image: cover.jpg
 {% endhighlight %}
 
 Данный список можно пополнить своими типами записей в виде коллекций. В этих настройках можно переопределять стандартные переменные, а так же добавлять пользовательские кастомные переменные с определенным значением либо без.

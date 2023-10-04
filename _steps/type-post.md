@@ -3,6 +3,7 @@ layout: steps
 title: Тип записи "Статья"
 date: 2023-09-03 11:00 +0600
 description: Создание типа записи "Статья" в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---
@@ -47,6 +48,9 @@ date:   2023-09-03 12:02:32 +0600
 # описание статьи
 description: Описание статьи про Jekyll
 
+# изображение страницы используется для seo
+image: /images/cover.jpg
+
 # категория статьи
 category: jekyll
 
@@ -72,6 +76,7 @@ layout: base
 title:  "Добро пожаловать в Jekyll!"
 date:   2023-09-03 12:02:32 +0600
 description: Тестовая вступительная запись
+image: /images/cover.jpg
 category: jekyll
 tags: [jekyll, html, css]
 published: true

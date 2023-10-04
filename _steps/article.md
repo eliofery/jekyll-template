@@ -3,6 +3,7 @@ layout: steps
 title: Список записей
 date: 2023-09-06 12:00 +0600
 description: Сниппет вывода различных типов записей в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

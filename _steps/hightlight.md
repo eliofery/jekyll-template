@@ -3,6 +3,7 @@ layout: steps
 title: Подсветка кода
 date: 2023-09-06 11:00 +0600
 description: Сниппет подсветки кода в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

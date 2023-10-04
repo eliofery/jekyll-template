@@ -3,6 +3,7 @@ layout: steps
 title: Разные конструкции
 date: 2023-09-08 10:00 +0600
 description: Сниппет вывода различных конструкций в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

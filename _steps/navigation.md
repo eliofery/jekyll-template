@@ -3,6 +3,7 @@ layout: steps
 title: Навигация
 date: 2023-09-06 14:00 +0600
 description: Сниппет вывода многоуровневой навигации в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

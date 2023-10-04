@@ -3,6 +3,7 @@ layout: steps
 title: Svg иконка
 date: 2023-09-07 11:00 +0600
 description: Сниппет вывода svg иконки в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

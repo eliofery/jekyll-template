@@ -3,6 +3,7 @@ layout: steps
 title: Время чтения материала
 date: 2023-09-07 12:00 +0600
 description: Сниппет вывода количество минут на чтение материала в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

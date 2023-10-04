@@ -3,10 +3,11 @@ layout: base
 title:  "Добро пожаловать в Jekyll!"
 date:   2023-09-03 12:02:32 +0600
 description: Тестовая вступительная запись
+image: /images/cover.jpg
 category: jekyll
 tags: [jekyll, html, css]
 published: true
-sitemap: true
+sitemap: false
 excerpt_separator: "<!--more-->"
 ---
 

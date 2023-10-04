@@ -3,6 +3,7 @@ layout: steps
 title: Предыдущая, следующая запись
 date: 2023-09-07 10:00 +0600
 description: Сниппет вывода предыдущей и следующей записи в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

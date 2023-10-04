@@ -3,6 +3,7 @@ layout: steps
 title: Анонс и полное содержимое
 date: 2023-09-06 13:00 +0600
 description: Сниппет вывода анонса и полного содержимого в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

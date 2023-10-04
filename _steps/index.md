@@ -3,6 +3,7 @@ layout: steps
 title: Установка Jekyll
 date: 2023-08-31 13:39 +0600
 description: Инструкция по установке Jekyll на Linux дистрибутивы семейства Debian и инициализации шаблона.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

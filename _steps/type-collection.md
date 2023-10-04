@@ -3,6 +3,7 @@ layout: steps
 title: Тип записи "Коллекция"
 date: 2023-09-03 12:00 +0600
 description: Создание типа записи "Коллекция" в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---
@@ -58,6 +59,9 @@ date:   2023-09-03 12:02:32 +0600
 # описание коллекции
 description: Описание коллекции про Jekyll
 
+# изображение страницы используется для seo
+image: /images/cover.jpg
+
 # категория коллекции
 category: jekyll
 
@@ -83,6 +87,7 @@ layout: steps
 title: Установка Jekyll
 date: 2023-08-31 13:39 +0600
 description: Инструкция по установке Jekyll на Linux дистрибутивы семейства Debian и инициализации шаблона.
+image: /images/cover.jpg
 published: true
 sitemap: false
 ---

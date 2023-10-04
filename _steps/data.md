@@ -3,6 +3,7 @@ layout: steps
 title: Пользовательские данные
 date: 2023-09-02 10:00 +0600
 description: Инструкция по использованию каталога _data в шаблоне Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

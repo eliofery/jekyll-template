@@ -1,4 +1,4 @@
-version: 0.0.22
+version: 0.0.23
 title: Основной заголовок сайта
 email: your-email@example.com
 description: Основное описание сайта
@@ -44,6 +44,7 @@ jekyll_compose:
     drafts:
       layout: base
       description:
+      image: cover.jpg
       category:
       tags: []
       published: false
@@ -52,6 +53,7 @@ jekyll_compose:
     posts:
       layout: base
       description:
+      image: cover.jpg
       category:
       tags: []
       published: true
@@ -60,11 +62,13 @@ jekyll_compose:
     pages:
       layout: base
       description:
+      image: cover.jpg
       permalink:
       sitemap: true
     steps:
       layout: base
       description:
+      image: cover.jpg
 
 # Пагинация
 pagination:

@@ -3,6 +3,7 @@ layout: steps
 title: Изображение
 date: 2023-09-07 12:00 +0600
 description: Сниппет вывода изображения в Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---

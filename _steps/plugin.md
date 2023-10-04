@@ -3,6 +3,7 @@ layout: steps
 title: Пользовательские расширения
 date: 2023-09-05 10:00 +0600
 description: Подключение пользовательских расширений для Jekyll.
+image: /images/cover.jpg
 published: true
 sitemap: true
 ---
