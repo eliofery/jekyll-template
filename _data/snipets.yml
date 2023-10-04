@@ -29,5 +29,8 @@ items:
   - title: Изображение
     url: /steps/picture.html
 
+  - title: Поиск по сайту
+    url: /steps/search.html
+
   - title: Разные конструкции
     url: /steps/other.html
