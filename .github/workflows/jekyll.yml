@@ -1,0 +1,50 @@
+name: Jekyll
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install Ubuntu packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ruby-full build-essential zlib1g-dev
+
+    - name: Add env to .bashrc
+      run: |
+        echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+        echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+        echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+        source ~/.bashrc
+
+    - name: Install Gem
+      run: |
+        gem install jekyll bundler
+
+    - name: Build
+      run: |
+        npm ci
+        export JEKYLL_ENV=production
+        jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: ./_site
