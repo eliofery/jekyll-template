@@ -13,14 +13,21 @@
   border-top: 1px solid #ccc;
 }
 
-.footer__copyright {
+.footer__copyright,
+.footer__copyright a {
   color: #9f9f9f;
+}
+
+.footer__copyright a {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 .footer__author {
   color: rgb(var(--color-text));
   font-weight: 500;
-  text-decoration: none;
 
   span {
     color: $accent;
@@ -28,6 +35,6 @@
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
