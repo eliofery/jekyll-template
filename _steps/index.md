@@ -30,3 +30,9 @@ source ~/.bashrc
 {% highlight bash %}
 gem install jekyll bundler
 {% endhighlight %}
+
+4\. Установить **Gem** зависимости.
+
+{% highlight bash %}
+bundle install
+{% endhighlight %}

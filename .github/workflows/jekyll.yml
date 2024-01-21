@@ -41,6 +41,7 @@ jobs:
     - name: Build
       run: |
         npm ci
+        bundle install
         export JEKYLL_ENV=production
         jekyll build
 
