@@ -43,7 +43,7 @@ jobs:
         npm ci
         sudo bundle install
         export JEKYLL_ENV=production
-        jekyll build
+        jekyll build && jekyll build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4

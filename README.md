@@ -16,8 +16,9 @@ export JEKYLL_ENV=development
 
 Сборка
 ```bash
-jekyll build
-jekyll build --config _config.yml,_config_dev.yml
+# Первый билд создаст критические стили, второй билд интегрирует их в шаблон
+jekyll build && jekyll build
+jekyll build --config _config.yml,_config_dev.yml && jekyll build --config _config.yml,_config_dev.yml
 ```
 
 Разработка
