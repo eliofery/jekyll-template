@@ -16,7 +16,7 @@ sitemap: true
 sudo apt install ruby-full build-essential zlib1g-dev
 {% endhighlight %}
 
-2\. Настроить учетную запись пользователя.
+2\. Настроить переменные среды.
 
 {% highlight bash %}
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc

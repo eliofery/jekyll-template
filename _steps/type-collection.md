@@ -17,7 +17,7 @@ sitemap: true
 {% highlight yml %}
 # Коллекции
 collections:
-  # название коллекции
+  # название коллекции (name-collection)
   steps:
     # создавать для каждой статьи коллекции steps отдельный файл 
     output: true
@@ -101,7 +101,7 @@ sudo apt install ruby-full build-essential zlib1g-dev
 {% endhighlight %}
 {% endraw %}
 
-2\. Настроить учетную запись пользователя.
+2\. Настроить переменные среды.
 
 {% raw %}{% highlight bash %}
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc

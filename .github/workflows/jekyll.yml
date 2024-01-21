@@ -36,7 +36,7 @@ jobs:
 
     - name: Install Gem
       run: |
-        gem install jekyll bundler
+        sudo gem install jekyll bundler
 
     - name: Build
       run: |
