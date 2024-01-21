@@ -129,7 +129,7 @@ layout: default
 {% raw %}{% contentfor footer %}{% include section/footer.html %}{% endcontentfor %}{% endraw %}
 
 {% raw %}{% contentfor script %}{% endraw %}
-<script src="{{ '/assets/js/main.js?v=' | relative_url }}{{ site.version | default: '0.0.1' }}" type="module"></script>
+<script src="{{ '/assets/js/main.js?v=' }}{{ site.version | default: '0.0.1' }}" type="module"></script>
 {% raw %}{% endcontentfor %}{% endraw %}
 {% endhighlight %}
 

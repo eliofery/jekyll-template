@@ -3,7 +3,7 @@ title: Основной заголовок сайта
 description: Основное описание сайта
 email: your-email@example.com
 url: 'https://eliofery.github.io' # базовое имя хоста и протокол сайта, например. http://example.com
-baseurl: '' # подпуть сайта, например. /blog
+baseurl: '/jekyll-template' # подпуть сайта, например. /blog
 themecolor: '#ee1b24'
 permalink: /blog/:name-:categories.html # https://jekyllrb.com/docs/permalinks/#built-in-formats
 
