@@ -13,6 +13,9 @@ items:
   - title: Пользовательские данные (_data)
     url: /steps/data.html
 
+  - title: Категории
+    url: /steps/category.html
+
   - title: Типы записей
     url: /steps/type.html
     links:

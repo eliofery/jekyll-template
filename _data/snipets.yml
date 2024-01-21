@@ -1,7 +1,4 @@
 items:
-  - title: Категория
-    url: /steps/category.html
-
   - title: Подсветка кода
     url: /steps/hightlight.html
 

@@ -12,7 +12,7 @@ layout: base
     <ol>
       {% assign collection = site.steps %}
 
-      {% for article in collection limit: 14 offset: 0 %}
+      {% for article in collection limit: 15 offset: 0 %}
       {% unless page.url == article.url %}
       <li><a href="{{ article.url }}">{{ article.title }}</a></li>
       {% endunless %}
@@ -26,7 +26,7 @@ layout: base
     <ol>
       {% assign collection = site.steps %}
 
-      {% for article in collection offset: 14 %}
+      {% for article in collection offset: 15 %}
       {% unless page.url == article.url %}
       <li><a href="{{ article.url }}">{{ article.title }}</a></li>
       {% endunless %}
