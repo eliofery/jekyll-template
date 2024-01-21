@@ -1,6 +1,6 @@
 {
   "name": "jekyll-template",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Стартовый Jekyll шаблон для создания статических сайтов",
   "main": "index.js",
   "scripts": {
