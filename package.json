@@ -4,10 +4,23 @@
   "description": "Стартовый Jekyll шаблон для создания статических сайтов",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "jekyll build && jekyll build",
+    "dev": "bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jekyll",
+    "scss",
+    "webp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliofery/jekyll-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliofery/jekyll-template/issues"
+  },
+  "homepage": "https://github.com/eliofery/jekyll-template#readme",
+  "author": "Sergio Eliofery",
   "license": "ISC",
   "devDependencies": {
     "normalize.css": "^8.0.1"
