@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://eliofery.github.io/jekyll-template/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eliofery.github.io/jekyll-template/" rel="alternate" type="text/html" /><updated>2024-02-17T07:41:49+00:00</updated><id>https://eliofery.github.io/jekyll-template/feed.xml</id><title type="html">Основной заголовок сайта</title><subtitle>Основное описание сайта</subtitle><entry><title type="html">Добро пожаловать в Jekyll!</title><link href="https://eliofery.github.io/jekyll-template/blog/2023-09-06-welcome-to-jekyll-jekyll.html" rel="alternate" type="text/html" title="Добро пожаловать в Jekyll!" /><published>2023-09-03T06:02:32+00:00</published><updated>2023-09-03T06:02:32+00:00</updated><id>https://eliofery.github.io/jekyll-template/blog/welcome-to-jekyll</id><content type="html" xml:base="https://eliofery.github.io/jekyll-template/blog/2023-09-06-welcome-to-jekyll-jekyll.html"><![CDATA[<p>Тестовая вступительная запись</p>
+
+<!--more-->
+
+<p>Вы найдете этот пост в своем каталоге <code class="language-plaintext highlighter-rouge">_posts</code>. Отредактируйте его и перестройте сайт, чтобы увидеть изменения. Вы можете перестроить сайт разными способами, но наиболее распространенным способом является запуск <code class="language-plaintext highlighter-rouge">jekyll serve</code>, который запускает веб-сервер и автоматически восстанавливает ваш сайт при обновлении файла.</p>
+
+<p>Jekyll требует, чтобы файлы сообщений блога имели имена в следующем формате:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.md</code></p>
+
+<p>Где <code class="language-plaintext highlighter-rouge">Год</code> — четырехзначное число, <code class="language-plaintext highlighter-rouge">Месяц</code> и <code class="language-plaintext highlighter-rouge">День</code> — двузначные числа, а <code class="language-plaintext highlighter-rouge">md</code> — это расширение файла, представляющее формат, используемый в файле. После этого добавьте необходимую вступительную часть. Взгляните на источник этого поста, чтобы получить представление о том, как это работает.</p>
+
+<p>Jekyll также предлагает мощную поддержку фрагментов кода:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Проверьте <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> для получения дополнительной информации о том, как максимально эффективно использовать Jekyll. Сообщите обо всех ошибках/запросах на новые функции по адресу <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. Если у вас есть вопросы, вы можете задать их на <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<picture>
+  <source srcset="/images/thumbnail/2023/09/welcome-to-jekyll/cover.webp" type="image/webp" />
+  <img src="/images/thumbnail/2023/09/welcome-to-jekyll/cover.jpg" alt="" />
+</picture>]]></content><author><name></name></author><category term="jekyll" /><category term="jekyll" /><category term="html" /><category term="css" /><summary type="html"><![CDATA[Тестовая вступительная запись]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://eliofery.github.io/jekyll-template/images/cover.jpg" /><media:content medium="image" url="https://eliofery.github.io/jekyll-template/images/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

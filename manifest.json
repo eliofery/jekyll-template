@@ -1,0 +1,33 @@
+{
+  "name": "Название проекта",
+  "short_name": "Название проекта",
+  "description": "Описание проекта",
+  "lang": "ru",
+  "dir": "ltr",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "minimal-ui",
+  "orientation": "any",
+  "theme_color": "#ee1b24",
+  "background_color": "#ee1b24",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "assets/favicons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/favicons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "assets/favicons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg",
+      "purpose": "maskable"
+    }
+  ]
+}

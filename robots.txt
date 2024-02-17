@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: eliofery.github.io/jekyll-template
+Sitemap: https://eliofery.github.io/jekyll-template/sitemap.xml
